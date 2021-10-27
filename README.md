@@ -64,3 +64,12 @@
   ```bash
   time platanus gap_close -o Poil -c Poil_scaffold.fa -IP1 sub1.fastq.trimmed sub2.fastq.trimmed -OP2 mate_pair_1.fastq.int_trimmed mate_pair_2.fastq.int_trimmed 2> gapclose.log
   ```
+  
+ ### <p align=center> Оценка качества </p>
+#### <p align=center> Качество исходных чтений </p>
+<img src="https://github.com/x3042/hse21_hw1/blob/main/screen/General_statistics.png" style="zoom:50%;" />
+<img src="https://github.com/x3042/hse21_hw1/blob/main/screen/Per_sequence_quality.png" style="zoom:50%;" />
+
+#### <p align=center> Качество подрезанных чтений </p>
+<img src="https://github.com/x3042/hse21_hw1/blob/main/screen/General_statistics_tr.png" style="zoom:50%;" />
+<img src="https://github.com/x3042/hse21_hw1/blob/main/screen/Per_sequence_quality_tr.png" style="zoom:50%;" />
